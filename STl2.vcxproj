@@ -41,8 +41,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>F:\VS_SGI\STl2\STl2\STLport-5.2.1\stlport;F:\VS_SGI\STl2\STl2\STLport-5.2.1\stlport\stl;$(IncludePath)</IncludePath>
-    <LibraryPath>F:\VS_SGI\STl2\STl2\STLport-5.2.1\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\STl2\STLport-5.2.1\stlport;..\STl2\STLport-5.2.1\stlport\stl;$(IncludePath)</IncludePath>
+    <LibraryPath>..\STl2\STLport-5.2.1\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -54,12 +54,12 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>F:\VS_SGI\STl2\STl2\STLport-5.2.1\stlport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\STl2\STLport-5.2.1\stlport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>F:\VS_SGI\STl2\STl2\STLport-5.2.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\STl2\STLport-5.2.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
