@@ -1,1 +1,1 @@
-NULL
+使用vs cmd 进入xx\STLport-5.2.1\build\lib -->nmake clean install
