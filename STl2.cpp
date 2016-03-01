@@ -6,18 +6,14 @@
 #include "iostream"
 #include "algorithm"
 #include "iterator"
-#include "set"
+#include "list"
 //×Ô¼ºµÄ
 #include "Algorithm.h"
 using namespace std;
 int _tmain(int argc, _TCHAR* argv[])
 {
-	vector<int> vec;
-	vec.push_back(1);
-	vec.push_back(1);
-	vec.push_back(1);
-	int get1 = vec.at(0);
-	
+	list<int> li;
+	li.push_back(1);
 	system("pause");
 	return 0;
 }
